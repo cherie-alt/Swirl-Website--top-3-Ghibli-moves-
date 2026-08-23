@@ -3,3 +3,18 @@
   font-weight: 400;
   font-style: normal;
 }
+nav{
+
+}
+*{
+    background-color:aliceblue
+    opacity: 90%;
+    background-image: url("image.png");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    bacground-position: right-top;
+    background-attachement: fixed;
+
+
+}
