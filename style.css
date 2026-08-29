@@ -3,18 +3,38 @@
   font-weight: 400;
   font-style: normal;
 }
-nav{
+header{
+  text-align: center;
+  margin-bottom: 30x;
+  padding: 50px;
+  background-color: burlywood;
 
 }
-*{
-    background-color:aliceblue
-    opacity: 90%;
-    background-image: url("image.png");
-    background-repeat: repeat-x;
-    background-repeat: repeat-y;
-    background-repeat: no-repeat;
-    bacground-position: right-top;
-    background-attachement: fixed;
+nav a{
+  text-decoration: none;
+  padding: 0 100px;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgreen;
+  color: tan
+  text-align: center;
+  padding: 50px;
+  margin-top: 30px;
+  text-doraction: none;
+}
+.summary{
 
-
+}
+.heading{
+  margin: 20px;
+}
+body{
+  background-color: linen;
+}
+#kiki{
+  background-img: url("")
 }
