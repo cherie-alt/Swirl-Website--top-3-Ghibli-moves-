@@ -14,6 +14,9 @@ nav a{
   text-decoration: none;
   padding: 0 100px;
 }
+nav a:hover{
+    color: #933c38;
+}
 footer{
   position: fixed;
   left: 0;
@@ -27,7 +30,7 @@ footer{
   text-doraction: none;
 }
 .summary{
-
+  margin: 20px;
 }
 .heading{
   margin: 20px;
@@ -46,6 +49,7 @@ img{
   display: flex;
   align-items: start;
   gap: 50px;
+  align: center;
   
 }
 .TOC{
@@ -55,6 +59,9 @@ img{
 #home_img{
   object-fit: contain;
   max-width: 50%;
+  border: 1px;
+  border-color; #a59ab9; 
+  border-style: double;
 }
 a{
   text-decoration: none;
@@ -70,5 +77,11 @@ a:visited{
   color: #2c2a2d;
 }
 a.button{
-
+  background-color: #DC4D3B;
+  padding: 15px; 
+  margin: 50px;
+  border-radius: 8px;
+}
+audio{
+  al
 }
