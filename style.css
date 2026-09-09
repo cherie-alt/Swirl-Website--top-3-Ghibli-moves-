@@ -7,7 +7,7 @@ header{
   text-align: center;
   margin-bottom: 30x;
   padding: 50px;
-  background-color: burlywood;
+  background-color: #a59ab9;
 
 }
 nav a{
@@ -19,8 +19,8 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: darkgreen;
-  color: tan
+  background-color: #4c4355;
+  color: #dc4d3b;
   text-align: center;
   padding: 50px;
   margin-top: 30px;
@@ -33,8 +33,42 @@ footer{
   margin: 20px;
 }
 body{
-  background-color: linen;
+  background-color: #efdbc2;
+  color: #933c38;
 }
 #kiki{
   background-img: url("")
+}
+img{
+  border-radius: 8px;
+}
+.container{
+  display: flex;
+  align-items: start;
+  gap: 50px;
+  
+}
+.TOC{
+  margin-right: 100px;
+  margin-left: 50px;
+}
+#home_img{
+  object-fit: contain;
+  max-width: 50%;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+}
+a:link{
+  color: #2c2a2d;
+}
+a:hover{
+  color: #a59ab9;
+}
+a:visited{
+  color: #2c2a2d;
+}
+a.button{
+
 }
