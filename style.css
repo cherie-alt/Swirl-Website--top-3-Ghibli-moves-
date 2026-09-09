@@ -18,7 +18,7 @@ nav a:hover{
     color: #933c38;
 }
 footer{
-  position: fixed;
+  position: static;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -38,9 +38,7 @@ footer{
 body{
   background-color: #efdbc2;
   color: #933c38;
-}
-#kiki{
-  background-img: url("")
+  overflow: scroll;
 }
 img{
   border-radius: 8px;
@@ -59,9 +57,14 @@ img{
 #home_img{
   object-fit: contain;
   max-width: 50%;
+  
+}
+img{
   border: 1px;
   border-color; #a59ab9; 
   border-style: double;
+  margin: auto;
+  display: block;
 }
 a{
   text-decoration: none;
